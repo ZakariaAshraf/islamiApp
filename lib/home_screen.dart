@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/modules/Hadeth/hadeth_view.dart';
+import 'package:islami_app/modules/Quran/quran_details_view.dart';
 import 'package:islami_app/modules/Quran/quran_view.dart';
 import 'package:islami_app/modules/Radio/radio_view.dart';
 import 'package:islami_app/modules/Setting/setting_view.dart';

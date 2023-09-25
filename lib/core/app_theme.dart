@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
  static ThemeData lightAppTheme = ThemeData(
+
+
    primaryColor: const Color(0xFFB7935F),
    bottomNavigationBarTheme:BottomNavigationBarThemeData(
      type: BottomNavigationBarType.fixed,
@@ -19,6 +21,9 @@ class AppTheme {
    ),
       scaffoldBackgroundColor: Colors.transparent,
       appBarTheme:const AppBarTheme(
+          iconTheme: IconThemeData(
+                color: Colors.black,
+          ),
           backgroundColor: Colors.transparent,
           elevation: 0,
           centerTitle: true,
